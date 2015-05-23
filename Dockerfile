@@ -1,5 +1,7 @@
 from ubuntu:latest
 
+MAINTAINER Filomeno G. Billones Jr <gneiss01@gmail.com>
+
 # Install Ruby
 RUN echo "deb http://ftp.us.debian.org/debian wheezy-backports main" >> /etc/apt/sources.list
 RUN apt-get update && \
